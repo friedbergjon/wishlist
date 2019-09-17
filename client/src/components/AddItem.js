@@ -75,7 +75,7 @@ class AddItem extends Component {
             <div>
                 <Button variant = "contained" color="primary" onClick={this.handleOpenModal}>Add Item</Button>
                 <Modal
-                    ariaHideApp={false}
+                    // ariaHideApp={false}
                     isOpen={this.state.showModal}
                     contentLabel="onRequestClose "
                     onRequestClose={this.handleCloseModal}

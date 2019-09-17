@@ -58,9 +58,7 @@ class SearchForm extends Component {
             <ListItem>
               <ListItemText primary={this.state.name}/>
             </ListItem>
-            <ListItem>
-              <ListItemText primary={this.state.email && this.state.email}/>
-            </ListItem>
+
             <div>
                 {this.state.wishlistArray.map((wishlist)=>{
                   return <Link key={wishlist.id} to={`/wishlist/${wishlist.id}`}> <ListItem><ListItemText primary={wishlist.title}/></ListItem></Link>
@@ -77,7 +75,7 @@ class SearchForm extends Component {
       <form onSubmit={this.getData} >
         <div className="search-wrapper">
           <Button type="submit" color="primary" className="button" >Give a Gift</Button>
-          <TextField required="required" name="email" type="text" placeholder="Search by email" onChange={this.updateInput}margin="normal" variant="outlined"/> 
+          <TextField required="required" name="email" type="text" placeholder="Search email" onChange={this.updateInput}margin="normal" variant="outlined"/> 
           {userInfo}  
         </div>
       </form>    

@@ -1,25 +1,31 @@
 .item-squeeze{
-  margin-bottom:30px;
+  margin-bottom:2em;
 }
 
 .top-flex{
   display:flex;
   justify-content: space-around;
-  margin-top:150px; 
+  margin-top:11em; 
 }
 
 body{
+  margin: 0 auto;
+
+  max-width: 100%;
   font-family: "Roboto";
+  overflow-x: auto;
+  overflow-y: auto;
   background-size: cover;
+ 
 }
 
 .top-title{
   text-align:center;
-  margin-top:10px;
+  margin-top:1em;
   color:blue;
   font-style:italic;
-  height:50px;
-  font-size:70px;
+  height:3em;
+  font-size:4.5em;
 }
 
 .search-name{
@@ -29,26 +35,28 @@ body{
 .h-one{
   text-align:center;
   color:#336B87;
-  font-size:40px;
-  padding-left:40px;
+  font-size:2.5em;
+  padding-left:2.5em
 }
 
 .search-wrapper{
 display:flex;
+justify-content: center;
 flex-direction:column;
-width:300px;
+width:12em;
 }
 
 .button{
-  margin-bottom:100px;
-  height:70px;
+  margin-bottom:6em;
+  height:4em;
 }
 
 .wishlist-wrapper{
   display:flex;
   flex-direction:column;
-  width: 500px;
-  height:500px;
+  justify-content: center;
+  width: 30em;
+  height:30em;
   margin:0 auto;
 }
 
@@ -64,18 +72,18 @@ i.material.md-24{
   display:flex;
   flex-direction:row;
   justify-content:center;
-  width:230px;
+  width:13em;
 }
 
 .item-wrapper{
   display:flex;
   justify-content:space-between;
-  padding:10px;
+  padding:.6em;
 }
 
 .event-icon-wrapper{
-  padding-top:15px;
-  padding-right:10px;
+  padding-top:1em;
+  padding-right:.5em;
   display:flex;
   flex-direction:row;
 }
@@ -93,19 +101,20 @@ i.material.md-24{
 
 .home-icon{
 text-align:right;
-padding:20px;
+padding:1.4em;
 }
 
 .MuiTypography-root.MuiListItemText-primary{
-  font-size:30px;
+  font-size:1em;
   font-weight:600;
 }
+
 
 .img-center{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 10px;
-    padding-bottom: -50px;
-    margin-bottom:-90px; 
+    margin-top: -10em;
+    padding-bottom: -3em;
+    margin-bottom:-5.5em; 
 }
